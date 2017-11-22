@@ -1,5 +1,6 @@
-# myAuthGuard
-## Clone or download the repo to local 
+# myAuthGuard 
+### Using Auth 0 > Authentication in Anuglar 5 /4 
+### Clone or download the repo to local 
 
 ### change credentials in Auth.service.ts file 
 

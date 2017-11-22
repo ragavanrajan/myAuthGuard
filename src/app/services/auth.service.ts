@@ -9,13 +9,15 @@ import { UserProfile } from './profile.model';
 export class AuthService {
 
   auth0 = new auth0.WebAuth({
-    clientID: '6hnRz6rX3WEeHkgSBWHxRUQu55Nsue5X',
-    domain: 'hilllaboratories.au.auth0.com',
+    clientID: 'your client id',
+    domain: 'your domain name',
     responseType: 'token id_token',
-    audience: 'https://hilllaboratories.au.auth0.com/userinfo',
+    audience: 'your Audience',
     redirectUri: 'http://localhost:4200/callback',
     scope: 'openid profile'
   });
+
+//replace the above part with your client id 
 
   userProfile: UserProfile;
   // Create a stream of logged in status to communicate throughout app
